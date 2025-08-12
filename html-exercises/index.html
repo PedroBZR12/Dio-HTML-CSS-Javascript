@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explicações das tags!</title>
+</head>
+<body>
+    <header>
+        <h1>Explicações das tags!</h1>
+        <p>Esse é um site que explica as tags mais comuns do HTML!</p>
+        <p>Aqui é o header! Onde colocamos as informações do cabeçalho, geralmente inclui tags de títulos como o h1, h2, h3, h4, h5 e/ou h6.
+            O que diferencia essas tags é o tamanho do texto, o h1 é o maior e o h6 é o menor.</p>
+        <p>Também podemos colocar parágrafos, que são feitos com a tag p, que é a tag que você está lendo agora!</p>
+        </p>
+        <hr/>
+    </header>
+    <main>
+        <h2>Explicação das tags dentro do main</h2>
+        <p>Aqui é o main! Onde colocamos as informações principais do site, geralmente inclui tags de títulos como o h2, h3, h4, h5 e/ou h6.</p>
+        <p>Também podemos colocar parágrafos, que são feitos com a tag p, que é a tag que você está lendo agora!</p>
+        <p>Além disso, podemos usar a tag hr para criar uma linha horizontal, que é usada para separar conteúdos.</p>
+        <p><strong> também usar a tag strong para destacar um texto, que é o que você está lendo agora!</strong></p>
+        <p><mark>Podemos também usar a tag em para marcar um texto, que é o que você está lendo agora!</mark></p>
+        <p><u>Sublinhar com a tag u</u> ou <i>deixar em itálico com a tag i?</i></p>
+        <hr/>
+        <h1>Exemplo de diferença entre as tags h. Esse é o h1!</h1>
+        <h2>Esse é o h2!</h2>
+        <h3>Esse é o h3!</h3>
+        <h4>Esse é o h4!</h4>
+        <h5>Esse é o h5!</h5>
+        <h6>Esse é o h6!</h6>
+        <hr/>
+        <p>Vamos para um exemplo de citação ou blockquote!</p>
+        <blockquote cite="https://www.w3schools.com/tags/tag_blockquote.asp">
+            <p>"A tag blockquote é usada para definir uma seção que é citada de outra fonte. Normalmente, o conteúdo dentro de uma tag blockquote é exibido com um recuo (indentação) para indicar que é uma citação."</p>
+        </blockquote>
+        <small>A tag small deixa bem pequeno</small> <span>(usando a tag span) comparando com tamanho normal</span>
+        
+        <p> Um exemplo de sub e sup, que deixam o elemento mais abaixo e acima, respectivamente, da linha normal!</p>
+        <p>H<sub>2</sub>O é a fórmula da água e E = mc<sup>2</sup> é a famosa equação de Einstein!</p>
+        <hr/>
+
+        <p>Agora vamos ver um exemplo de lista não ordenada:</p>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <p>Agora vamos ver um exemplo de lista ordenada:</p>
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+        <p>Repare bem que a diferença entre as listas é que a ordenada está em ordem numérica!
+            Já a não ordenada não!</p>
+        </p>
+        <hr/>
+        <p>Agora vamos ver um exemplo de tabela:</p>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>th</th>
+                    <th>tr</th>
+                    <th>td</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Usamos a tag</td>
+                    <td>Usamos a tag</td>
+                    <td>Usamos a tag</td>
+                </tr>
+                <tr>
+                    <td>th dentro da tag thead</td>
+                    <td>tr para criar</td>
+                    <td>td para criar</td>
+                </tr>
+                <tr>
+                    <td>assim, definimos</td>
+                    <td>uma nova linha</td>
+                    <td>colunas que</td>
+                </tr>
+                 <tr>
+                    <td>os elementos</td>
+                    <td>na nossa tabela</td>
+                    <td>criam células ao se</td>
+                </tr>
+                 <tr>
+                    <td>do cabeçalho</td>
+                    <td>assim!</td>
+                    <td>encontrarem com as linhas</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr/>
+        <p>Agora vamos ver um exemplo de formulário:</p>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required />
+            <br/>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <br/>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            <br/>
+            <button type="submit">Enviar</button>
+        </form>
+        <hr/>
+        <p>Agora, podemos colocar imagens, videos, audios e até mesmo integrações com
+            outros aplicativos, como o youtube, por exemplo!</p>
+        <p>Vamos para os exemplos:</p>
+        <p>Imagem (usando a tag img):</p>
+        <img src="https://static.vecteezy.com/ti/fotos-gratis/t2/36324708-ai-gerado-cenario-do-uma-tigre-caminhando-dentro-a-floresta-foto.jpg" alt="Exemplo de imagem" />
+        <p>Vídeo:</p> 
+        <video width="320" height="240" controls>
+            <source src="https://www.youtube.com/watch?v=dLpDDzetMi4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>     
+        <p>Audio:</p>
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+        <p>Agora vamos ver um exemplo de iframe, que é usado para integrar outros sites dentro do nosso site:</p>  
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dLpDDzetMi4?si=L5Sz9TP0FMD84HxA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <hr/>
+    </main>
+    <footer>
+        <p>Esse é o footer! Onde colocamos as informações do rodapé, geralmente inclui informações de contato, direitos autorais, links para redes sociais, etc.</p>
+        <p>Obrigado por visitar o site!</p>
+        <p>Logo a seguir usamos a tag <strong>a</strong> para criar um redirecionamento para outro site, o meu perfil do linkedin!</p>
+        <p>Feito por: <a href="https://www.linkedin.com/in/pedro-bizzari-608016138" target="_blank">Pedro Bizzari</a>
+</body>
+</html>
